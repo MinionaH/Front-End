@@ -1,0 +1,68 @@
+.indexbody{
+    background-image: url("/image/signupimage.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.loginbody{
+    background-image: url('/image/loginimage.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
+
+img {
+    height: 390px;
+    width: 458px;
+    max-width:100%;
+}
+.check{
+    height: 15px;
+    width: 15px;
+    margin: 15px 5px;
+}
+input{
+	background-color: #F7F8FB;
+	height: 55px;
+	width: 400px;
+}
+button{
+    background-color: limegreen;
+    color: white;
+    width: 400px;
+    height: 55px;
+    margin-top: 15px 0px;
+    border: none;
+}
+.signup{
+    font-size: 25px;
+    padding-left: 100px;
+}
+.details{
+    padding-left: 25px;
+}
+
+.formmargin{
+    margin-top: 15px;
+}
+a{
+    color: lime;
+    text-decoration: none;
+}
+.Dont{
+    color: yellow;
+}
+.Agree{
+    color: yellow;
+}
+.Remember{
+    font-size: 15px;
+}
+.login{
+    font-size: 25px;
+    padding-left: 150px;
+}
