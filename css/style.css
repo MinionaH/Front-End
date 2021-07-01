@@ -1,13 +1,11 @@
+body{
+    font-family: 'Permanent Marker', cursive;
+}
+
 .indexbody{
     background-image: url("/image/signupimage.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-}
-.loginbody{
-    background-image: url('/image/loginimage.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
     background-size: cover;
 }
 .content {
@@ -15,11 +13,6 @@
     margin: auto;
   }
 
-img {
-    height: 390px;
-    width: 458px;
-    max-width:100%;
-}
 .check{
     height: 15px;
     width: 15px;
@@ -36,7 +29,12 @@ button{
     width: 400px;
     height: 55px;
     margin-top: 15px 0px;
-    border: none;
+    /* border: none; */
+}
+
+button:hover{
+    background-color: red;
+    transition-duration: 2s;
 }
 .signup{
     font-size: 25px;
@@ -65,4 +63,47 @@ a{
 .login{
     font-size: 25px;
     padding-left: 150px;
+}
+
+.aboutusheader{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.aboutusspan{
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.components{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.forsale{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+.img{
+    width: 300px;
+    height: 200px;
+}
+
+.imageee{
+    background-image: url('../image/About.jpeg');
+    background-color: #cccccc;
+}
+
+.aboutt{
+    color: limegreen;
+    width: 30%;
+    margin-top: 200px;
 }

@@ -5,31 +5,38 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="https://nuk.chultane5000.pw/img/627255.png" type="image/icon">
-    <title>Login</title>
+    <title>Sign up</title>
 </head>
 <body class="indexbody">
  <div class="content">
     <div>
-        <h class="login">Login</h><br>
+        <h class="signup">Sign Up</h><br>
+        <p class="details">Enter your details to create your account</p><br>
     </div>
 
 
-    <form action="index.html">
+    <form action="login.html">
+        <div class="formmargin">
+            <input class="name" type="text" name="name" id="name" placeholder="Fullname" required><br>
+        </div>
         <div class="formmargin">
             <input type="email" name="email" id="email" placeholder="Email" required>
         </div>
         <div class="formmargin">
             <input type="password" name="password" id="password" placeholder="Password" required>
         </div>
+        <div class="formmargin">
+            <input type="password" name="confirmpassword" id="confirm_password" placeholder="Confirm Password" required>
+        </div>
         <div>
-            <input class="check" type="checkbox" name="checkbox" id="box" >
-            <span class="Remember">Remember Me</span>
+            <input class="check" type="checkbox" name="checkbox" id="box" required>
+            <span class="Agree">I agree the terms and conditions</span>
         </div>
         <div class="formmargin">
-            <button type="submit" onclick="checkpassword()">Login</button>
+            <button type="submit" onclick="checkpassword()">Sign Up</button>
         </div>
         <div class="formmargin">
-            <p class="Dont">Don't have an account? <a href="/signup.html">Sign up</a></p>
+            <p class="Dont">Already have an account? <a href="/login.html">Sign in</a></p>
         </div>
     </form> 
 </div> 
